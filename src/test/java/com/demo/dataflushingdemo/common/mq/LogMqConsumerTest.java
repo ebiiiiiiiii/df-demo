@@ -2,7 +2,6 @@ package com.demo.dataflushingdemo.common.mq;
 
 import com.demo.dataflushingdemo.common.constant.KafkaTopic;
 import com.demo.dataflushingdemo.common.constant.MillisConstant;
-import com.demo.dataflushingdemo.common.mq.LogMqConsumer;
 import com.demo.dataflushingdemo.utils.LogGenerator;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;

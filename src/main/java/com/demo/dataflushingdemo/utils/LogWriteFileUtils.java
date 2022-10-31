@@ -11,7 +11,7 @@ import java.io.IOException;
  */
 public class LogWriteFileUtils implements AutoCloseable {
 
-    private static final String PATH = "D:\\IdeaProject\\DataFlushingDemo\\data\\temp_log.log";
+    private static final String PATH = "data/temp_log.log";
     FileOutputStream output;
 
     public LogWriteFileUtils() throws FileNotFoundException {

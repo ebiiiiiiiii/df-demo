@@ -1,11 +1,5 @@
 package com.demo.dataflushingdemo.common.mq;
 
-import com.demo.dataflushingdemo.common.constant.KafkaProperties;
-import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.clients.producer.KafkaProducer;
-
-import java.util.Properties;
-
 /**
  * @author: ruitao.wei
  * @description: TODO

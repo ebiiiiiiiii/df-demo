@@ -46,7 +46,7 @@ public class LogMqProducer {
                         new ProducerRecord<>(topic, partition, msgKey, data) :
                         new ProducerRecord<>(topic, partition, timestamp, msgKey, data);
         sendMsg(kafkaRecord);
-        System.out.println("生产: " + data);
+        System.out.println(LogGenerator.infoLog("生产: " + data));
     }
 
     private void sendMsg(ProducerRecord<String, String> kafkaRecord) {
